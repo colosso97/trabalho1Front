@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.menu {
+  background-color: #002F6C; /* azul institucional */
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky; /* fixo no topo */
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu-nav a:hover {
+  color: #aad4ff;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+  .rodape {
+    background-color: #002F6C;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .conteudo-rodape p,
+  .conteudo-rodape a {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .conteudo-rodape a {
+    color: #aad4ff;
+    text-decoration: none;
+  }
+  
+  .conteudo-rodape a:hover {
+    text-decoration: underline;
+  }
+  
+  .icone {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  

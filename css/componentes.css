@@ -53,10 +53,10 @@
 
 .conteudo-rodape a:hover {
     text-decoration: underline;
-}
-
-.icone {
-    width: 16px;
+  }
+  
+  .icone {
+    width: 25px;
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -113,4 +113,49 @@
 
 .estilo_regiao div img:hover {
     transform: scale(1.1);
+}
+
+/* Inicio */
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/petropolisfundo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.introducao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.titulo, .subtitulo {
+  font-size: 3rem;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+}
+
+.home:hover .introducao {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home:hover .titulo, .home:hover .subtitulo {
+  opacity: 1;
 }

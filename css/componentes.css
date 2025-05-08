@@ -29,8 +29,6 @@
 }
 
 
-
-
 .rodape {
     background-color: #002F6C;
     color: white;
@@ -117,7 +115,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url('./img/petropolisfundo.jpg');
+  background-image: url('../img/petropolisfundo.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -156,7 +154,7 @@
 .home:hover .titulo, .home:hover .subtitulo {
   opacity: 1;
 }
-  
+
 /* Guias */
 .gastronomia {
   position: relative;

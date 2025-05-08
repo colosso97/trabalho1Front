@@ -3,7 +3,6 @@
 .menu {
     background-color: #002F6C;
     /* azul institucional */
-    font-family: 'Poppins', sans-serif;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -30,12 +29,9 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 .rodape {
     background-color: #002F6C;
     color: white;
-    font-family: 'Poppins', sans-serif;
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -54,7 +50,7 @@
 .conteudo-rodape a:hover {
     text-decoration: underline;
   }
-  
+
   .icone {
     width: 25px;
     vertical-align: middle;
@@ -102,7 +98,6 @@
 
 .estilo_regiao .atracao p {
     color: white;
-    font-family: 'Poppins', sans-serif;
     margin: 0.5rem 0;
 }
 
@@ -158,4 +153,134 @@
 
 .home:hover .titulo, .home:hover .subtitulo {
   opacity: 1;
+}
+
+/* Guias */
+.gastronomia {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gastronomia__fundo {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.gastronomia__texto {
+  color: #fff;
+  padding: 1.5em;
+  z-index: 1;
+  backdrop-filter: none; 
+  max-width: 900px;
+}
+
+.gastronomia__titulo{
+  padding: 1em;
+  text-align: center;
+}
+
+.gastronomia__descricao{
+  padding: 1em;
+  text-align: justify;
+}
+
+.atracoes {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-direction: column;
+  background-color: #314968;
+}
+
+.atracoes__imagens {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+}
+
+.atracoes__imagem > img {
+  display: inline-block;
+  width: 35vh;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.atracoes__texto{
+  color: white;
+  padding-bottom: 2em;
+  text-align: center;
+  max-width: 170vh;
+}
+
+.atracoes__titulo{
+  padding: 1em;
+  text-align: center;
+}
+
+.atracoes__descricao{
+  text-align: justify;
+  padding: 1em;
+}
+
+.evento {
+  background-color: darkgrey;
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.evento__imagem {
+  width: 60%;
+}
+
+.evento__imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.evento__texto {
+  width: 40%;
+  color: white;
+  padding: 3em;
+  text-align: center;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.evento__texto {
+  width: 40%;
+  color: white;
+  padding: 3em;
+  text-align: center;
+  max-width: 900px;
+}
+
+
+.evento__descricao{
+  text-align: justify;
+  padding: 1em;
 }

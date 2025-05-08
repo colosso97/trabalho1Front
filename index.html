@@ -13,12 +13,14 @@
 <body>
     <header class="menu">
         <nav class="menu-nav">
-            <a href="#inicio">Início</a>
-            <a href="#leste">Área Leste</a>
-            <a href="#oeste">Área Oeste</a>
+          <a href="#inicio">Início</a>
+          <a href="#gastronomia">Nossa gastonomia</a>
+          <a href="#atracoes">Nossas atrações</a>
+          <a href="#evento">Nossos eventos</a>
+          <a href="#leste">Área Leste</a>
+          <a href="#oeste">Área Oeste</a>
         </nav>
-
-    </header>
+      </header>
 
     <section id="inicio" class="home">
         <div class="introducao">
@@ -27,25 +29,74 @@
         </div>
     </section>
 
-    <div class="container" id="guia">
-        <div class="imagem">
-            <img src="" alt="">
+    <section class="sessao">
+        <div class="layout-sessao">
+          
+          <div class="gastronomia" id="gastronomia">
+            <img class="gastronomia__fundo" src="./img/gastronomia.png" alt="Gastronomia em Petrópolis Fundo com Imagem">
+            
+            <div class="gastronomia__texto">
+              <h1 class="gastronomia__titulo">Gastronomia</h1>
+              <p class="gastronomia__descricao">
+                A gastronomia de Petrópolis tem um charme à parte, unindo sabores da tradição alemã com o aconchego da serra fluminense.
+                Restaurantes e bistrôs oferecem pratos como joelho de porco, salsichas artesanais, trutas e fondues, ideais para o clima 
+                ameno da região. Cafés e confeitarias completam a experiência com doces finos e chocolates quentes. É o destino perfeito 
+                para quem busca boa comida em um cenário histórico e acolhedor.
+              </p>
+            </div>
+
+          </div>
+
+      
+          <div class="atracoes" id="atracoes">  
+              <div class="atracoes__imagens">
+                  <div class="atracoes__imagem">
+                      <img src="./img/museu-imperial-petropolis.png" alt="Museu Imperial">
+                  </div>
+                  <div class="atracoes__imagem">
+                      <img src="./img/palacio-cristal.jpg" alt="">
+                  </div>
+                  <div class="atracoes__imagem">
+                    <img src="./img/fazenda-samambaia.png" alt="">
+                </div>
+              </div>  
+                  
+              <div class="atracoes__texto">
+                  <div class="atracoes__titulo">
+                      <h1>Atraçoẽs</h1>
+                  </div>
+              
+                  <div class="atracoes__descricao">
+                      <p>Petrópolis, a charmosa Cidade Imperial na Serra do Rio de Janeiro, é um destino que une história, natureza e cultura. 
+                          O Museu Imperial, o Palácio de Cristal e a Catedral de São Pedro de Alcântara são paradas obrigatórias. 
+                          Os visitantes também podem explorar trilhas, degustar cervejas artesanais e aproveitar a gastronomia local. 
+                          Com clima ameno e arquitetura europeia, a cidade é ideal para passeios românticos ou em família.</p>
+                  </div>
+              </div>
+          </div>
+
+
+
+          <div class="evento" id="evento">          
+              <div class="evento__imagem">
+                  <img src="./img/evento.jpg" alt="">
+              </div>
+              
+              <div class="evento__texto">
+                  <div class="evento__titulo">
+                      <h1>Evento</h1>
+                  </div>
+              
+                  <div class="evento__descricao">
+                      <p>Petrópolis é palco de eventos culturais que encantam turistas o ano todo. Destaque para a Bauernfest, festa alemã com danças,
+                           música e comida típica; o Festival de Inverno, com atrações artísticas e musicais; e o Natal Imperial, que ilumina a cidade 
+                           com desfiles e decorações. Cada evento valoriza a cultura local e torna a visita ainda mais especial.</p>
+                  </div>
+              </div>
+          </div>
         </div>
 
-        <div class="descricao">
-            <p>escreva sua descrição aqui</p>
-        </div>
-    </div>
-
-    <div class="container" id="atracao">
-        <div class="imagem">
-
-        </div>
-
-        <div class="descricao">
-            <p>descrição de cada imagem</p>
-        </div>
-
+      </section>
     </div>
 
     <div class="container" id="eventos">
@@ -68,7 +119,6 @@
         </div>
     </div>
 
-
     <div class="container">
         <section id="leste" class="estilo_regiao">
             <h2>Área Leste</h2>
@@ -88,7 +138,8 @@
             </div>
 
             <div class="atracao">
-                <img src="./img/petropolis.jpg" alt="Palácio de Cristal" width="300px">
+                <img src="./img/palacio-cristal.jpg" alt="Palácio de Cristal" width="300px">
+
                 <div>
                     <p><strong>Palácio de Cristal</strong></p>
                     <p>O Palácio de Cristal é uma estrutura de ferro e vidro inspirada nos palácios europeus. É um dos
@@ -135,7 +186,8 @@
             </div>
 
             <div class="atracao">
-                <img src="./img/003-1.png" alt="Fazenda Samambaia" width="300px">
+                <img src="./img/fazenda-samambaia.png" alt="Fazenda Samambaia" width="300px">
+
                 <div>
                     <p><strong>Fazenda Samambaia</strong></p>
                     <p>Construída no século XIX, a Fazenda Samambaia é um exemplo preservado do ciclo cafeeiro da
@@ -157,10 +209,6 @@
               </a>
         </div>
     </footer>
-
-
-
-    <script></script>
 </body>
 
 </html>
